@@ -1,0 +1,78 @@
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/bg.png') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.navbar-nav .nav-link {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff !important;
+}
+
+.btn-outline-light:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.3s ease;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
+
+.jurusan-section {
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: -48px;
+  background-color: #ffffff;
+}
+
+.jurusan-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jurusan-card {
+  background: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.jurusan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #2ecc71;
+}
+
+.jurusan-card h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.jurusan-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.alamat-section {
+  text-align: center;
+  margin-top: -120px;
+  padding: 30px;
+}
